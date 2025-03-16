@@ -1,0 +1,76 @@
+/* CSS Document */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    background-color: #003399;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    min-height: 100vh;
+	background-color:#42a0db;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0033CC;
+}
+
+nav a {
+    color: #00CCFF;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.contenedor {
+    display: flex;
+    flex-grow: 1;
+    gap: 20px;
+}
+
+.articulos {
+    flex: 70%;
+    padding: 20px;
+}
+
+.menu-secundario {
+    flex: 30%;
+    padding: 20px;
+    border-right: 3px solid #000000;
+}
+section{
+flex:30%;
+background-color:#42a0db;
+padding:20px;}
+
+img {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #247cb3;
+    margin-top: auto;
+}
+
+.menu-secundario a {
+    display: block;
+    padding: 40px;
+	background-color:#42a0db;
+    color: #003399;
+    text-decoration: none;
+}
